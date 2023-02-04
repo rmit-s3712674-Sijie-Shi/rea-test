@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ItemList from './components/item-list/ItemList';
 
 function App() {
   return (
     <>
-    something here
+    <ItemList result="123"/>
     </>
   );
 }
