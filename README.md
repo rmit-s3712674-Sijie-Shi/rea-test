@@ -2,6 +2,10 @@
 
 This projest is to display two lists of properties, which includes property results and saved properties.
 
+# Play with an online demo
+
+[Git Static Page](https://rmit-s3712674-sijie-shi.github.io/rea-test/)
+
 # Getting Started with This React Project 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
