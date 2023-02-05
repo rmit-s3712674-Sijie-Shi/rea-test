@@ -1,0 +1,12 @@
+.itemlist{
+    background-color: #eaecf0;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
