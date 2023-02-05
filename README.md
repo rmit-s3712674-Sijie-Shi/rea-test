@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# About
+
+This projest is to display two lists of properties, which includes property results and saved properties.
+
+# Getting Started with This React Project 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+To run this project, make sure:
+1. You have [node.js](https://nodejs.org/en/) installed in your local machine
+2. Pull down this repo and run `npm install`, to install all dependencies. 
+3. `npm start`, to run the app in the development mode.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-In the project directory, you can run:
 
-### `npm start`
+# App testing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project depends on jest to do the test, all tests in src\App.test.tsx
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Start the test with `npm test`
 
-### `npm test`
+# Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. There are two colums to display properties, 
+one is property result which displays the properties get from the JSON file,
+another is properties saved which displays saved properties,
+there will be one saved property by default.
+2. Hover on property cards will display the button in different function, 
+first function is adding a property from the result column to the saved properties,
+second function is to remove a property from the saved properties,
+last function is to indicate if the property in result property colum has been added to saved properties column 
+3. Each property card has its picture, agency logo and price
