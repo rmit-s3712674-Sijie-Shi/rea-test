@@ -3,10 +3,16 @@
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
-    width: fit-content;
+    width: 15rem;
+    text-align: center;
 }
 .title {
     text-align: center;
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
 }

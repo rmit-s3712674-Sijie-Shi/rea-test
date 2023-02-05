@@ -1,0 +1,41 @@
+button {
+  border-radius: 10px;
+  padding: 5px;
+  width: 8rem;
+  position: absolute;
+  cursor: pointer;
+  bottom: 1rem;
+  left: 3.2rem;
+}
+
+/* button:hover {
+  background-color: tomato;
+} */
+
+.add_botton {
+  background-color: blue;
+}
+
+.remove_button {
+  background-color: tomato;
+}
+
+.exist_botton {
+  background-color: green
+}
+
+.propertyImg {
+    max-width: 15rem;
+}
+
+.propertyImg:hover .remove_button {
+  background-color: wheat;
+}
+
+.propertyImg:hover {
+  background-color: wheat;
+}
+
+.card {
+    position: relative;
+}
