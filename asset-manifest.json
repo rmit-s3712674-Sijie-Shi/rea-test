@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rmit-s3712674-Sijie-Shi/rea-test/static/css/main.70ae6d55.css",
+    "main.js": "/rmit-s3712674-Sijie-Shi/rea-test/static/js/main.613bb749.js",
+    "static/js/787.04b0eb41.chunk.js": "/rmit-s3712674-Sijie-Shi/rea-test/static/js/787.04b0eb41.chunk.js",
+    "index.html": "/rmit-s3712674-Sijie-Shi/rea-test/index.html",
+    "main.70ae6d55.css.map": "/rmit-s3712674-Sijie-Shi/rea-test/static/css/main.70ae6d55.css.map",
+    "main.613bb749.js.map": "/rmit-s3712674-Sijie-Shi/rea-test/static/js/main.613bb749.js.map",
+    "787.04b0eb41.chunk.js.map": "/rmit-s3712674-Sijie-Shi/rea-test/static/js/787.04b0eb41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ae6d55.css",
+    "static/js/main.613bb749.js"
+  ]
+}
