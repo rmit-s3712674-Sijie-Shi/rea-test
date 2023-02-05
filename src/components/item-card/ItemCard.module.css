@@ -1,11 +1,13 @@
 button {
+  border: black 0.3px solid;
   border-radius: 10px;
   padding: 5px;
   width: 8rem;
   position: absolute;
   cursor: pointer;
-  bottom: 1rem;
+  bottom: 3.2rem;
   left: 3.2rem;
+  opacity: 80%;
 }
 
 /* button:hover {
@@ -13,7 +15,7 @@ button {
 } */
 
 .add_botton {
-  background-color: blue;
+  background-color: rgb(47, 185, 47);
 }
 
 .remove_button {
@@ -21,21 +23,43 @@ button {
 }
 
 .exist_botton {
-  background-color: green
+  background-color: yellow
 }
 
 .propertyImg {
-    max-width: 15rem;
+  max-width: 14rem;
 }
 
-.propertyImg:hover .remove_button {
-  background-color: wheat;
+.imgContainer {
+  height: 168px;
 }
 
-.propertyImg:hover {
-  background-color: wheat;
+.agencyLogo {
+  width: 5.5rem;
+  padding-top: 0.6rem;
 }
 
 .card {
-    position: relative;
+  border-radius: 5px;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.header {
+  text-align: left !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer {
+  position: relative;
+  background-color: rgb(250, 253, 250);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.price {
+  text-align: left !important;
+  font-size: 15px ;
+  padding-left: 1rem;
 }

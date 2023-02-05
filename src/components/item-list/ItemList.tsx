@@ -17,7 +17,7 @@ const ItemList = ({
     return (
         <>
             <div className={style.container}>
-                <div className={style.title}>{buttonType === "Results" ? "Property Results" : "Properties Saved"}
+                <div className={style.title}>{buttonType === "Results" ? "Results" : "Saved Properties"}
                     <div className={style.itemlist}>
                         {result?.length ?
                             (result.map((res) =>

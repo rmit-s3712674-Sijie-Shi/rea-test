@@ -45,17 +45,17 @@ const ItemCard = ({
         <>
             <div className={style.card} onMouseEnter={() => setHoverCss(true)} onMouseLeave={() => setHoverCss(false)}>
                 <div className={style.header} style={{ backgroundColor: agencyBackgroudColor }}>
-                    <img src={agencyLogo} alt="agency" />
+                    <img src={agencyLogo} className={style.agencyLogo} alt="agency" />
                 </div>
-                <img src={propertyImageUrl} className={style.propertyImg} alt="property" />
-                <div className={style.card}>
-                    <button onClick={() => { if (!checkAdded() || buttonType === "Saved") buttonFunction(id) }} className={buttonType === "Results" ? checkAdded() ? style.exist_botton : style.add_botton : style.remove_button} style={{ visibility: hover ? 'visible' : 'hidden' }}>
-                        {buttonType === "Results" ? checkAdded() ? "Property Added" : "Add Property" : "Remove Property"}
-                    </button>
+                <div className={style.imgContainer}>
+                    <img src={propertyImageUrl} className={style.propertyImg} alt="property" />             
                 </div>
-                <footer className={style.footer}>
+                <div className={style.footer}>
                     <div className={style.price}>{price}</div>
-                </footer>
+                </div>
+                <button onClick={() => { if (!checkAdded() || buttonType === "Saved") buttonFunction(id) }} className={buttonType === "Results" ? checkAdded() ? style.exist_botton : style.add_botton : style.remove_button} style={{ visibility: hover ? 'visible' : 'hidden' }}>
+                    {buttonType === "Results" ? checkAdded() ? "Property Added" : "Add Property" : "Remove Property"}
+                </button>
             </div>
         </>
     )

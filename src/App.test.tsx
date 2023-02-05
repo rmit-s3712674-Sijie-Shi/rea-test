@@ -7,13 +7,13 @@ import App from './App';
 describe('App is rendered', () => {
   test('Property Result is rendered', () => {
     render(<App />);
-    const linkElement = screen.getByText(/Property Results/i);
+    const linkElement = screen.getByText(/Results/i);
     expect(linkElement).toBeInTheDocument();
   });
 
   test('Property saved is rendered', () => {
     render(<App />);
-    const linkElement = screen.getByText(/Properties Saved/i);
+    const linkElement = screen.getByText(/Saved Properties/i);
     expect(linkElement).toBeInTheDocument();
   });
 })
